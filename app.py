@@ -2,6 +2,8 @@
 import streamlit as st
 import joblib
 import string
+import nltk
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 
 # Load model and vectorizer
